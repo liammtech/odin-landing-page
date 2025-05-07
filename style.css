@@ -91,10 +91,42 @@ img {
     font-size: 18px;
     color: var(--white-color);
     padding: 8px 32px;
-
 }
 
 .hero-content > button:hover {
     background-color: var(--off-white-color);
     color: var(--light-blue-color)
+}
+
+/* Info section */
+
+.info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info > h2 {
+    color: var(--dark-blue-color);
+    font-size: 32px;
+    font-weight: var(--font-weight-heavy);
+    padding: 18px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 48px;
+}
+
+.card {
+    max-width: 160px
+}
+
+.card-image {
+    height: 160px;
+    width: 160px;
+    border: 5px solid var(--light-blue-color);
+    border-radius: 16px;
 }
