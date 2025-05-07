@@ -12,16 +12,89 @@
     --off-white-color: #E5E7EB;
     --light-blue-color: #3882F6;
     --dark-blue-color: #1F2937;
+
+    --main-width: 60vw;
 }
+
+/* Global */
 
 body {
     font-family: var(--main-font);
+    margin: 0%;
 }
 
-h1 {
-    color: var(--hero-main-font-color);
-}
+/* Header */
 
 header {
     background-color: var(--dark-blue-color);
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--main-width);
+}
+
+.header-content > h3 {
+    color: var(--white-color);
+}
+
+.header-links > a {
+    color: var(--off-white-color);
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+/* Hero */
+
+.hero {
+    background-color: var(--dark-blue-color);
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    width: var(--main-width);
+    padding: 80px;
+}
+
+.hero-content {
+    width: 600px;
+
+}
+
+img {
+    max-width: 500px;
+}
+
+.hero-content > h1 {
+    color: var(--white-color);
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-content > p {
+    color: var(--off-white-color)
+}
+
+.hero-content > button {
+    background-color: var(--light-blue-color);
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--white-color);
+    padding: 8px 32px;
+
+}
+
+.hero-content > button:hover {
+    background-color: var(--off-white-color);
+    color: var(--light-blue-color)
 }
