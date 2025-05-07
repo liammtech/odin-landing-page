@@ -130,3 +130,27 @@ img {
     border: 5px solid var(--light-blue-color);
     border-radius: 16px;
 }
+
+/* Quote */
+
+.quote {
+    background-color: var(--off-white-color);
+    display: flex;
+    justify-content: center;
+}
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 45vw;
+    padding: 48px;
+}
+
+quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-content > h4 {
+    align-self: flex-end;
+}
