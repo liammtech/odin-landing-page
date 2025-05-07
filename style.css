@@ -12,41 +12,6 @@
     --off-white-color: #E5E7EB;
     --light-blue-color: #3882F6;
     --dark-blue-color: #1F2937;
-
-    /* Hero Main Text */
-    --hero-main-font-size: var(--font-size-larger);
-    --hero-main-font-weight: var(--font-weight-heavy);
-    --hero-main-font-color: var(--white-color);
-
-    /* Hero Secondary Text */
-    --hero-secondary-font-size: var(--font-size-smaller);
-    --hero-secondary-font-color: var(--off-white-color);
-
-    /* Header Link Text */
-    --header-link-font-size: var(--font-size-smaller);
-    --header-link-font-color: var(--off-white-color);
-
-    /* Header Logo Text */
-    --header-logo-font-size: var(--font-size-smaller);
-    --header-logo-font-color: var(--white-color);
-
-    /* Button */
-    --button-background-color: var(--light-blue-color);
-    --button-border-color: var(--white-color);
-
-    /* Call-to-action */
-    --signup-background-color: var(--light-blue-color);
-
-    /* Information Header Text */
-    --info-header-font-size: var(--font-size-larger);
-    --info-header-font-color: var(--dark-blue-color);
-    --info-header-font-weight: var(--font-weight-heavy);
-
-    /* Quote section */
-    --quote-background-color: var(--off-white-color);
-    --quote-font-size: var(--font-size-large);
-    --quote-font-weight: var(--font-weight-italic);
-    --quote-font-color: var(--dark-blue-color);
 }
 
 body {
@@ -55,4 +20,8 @@ body {
 
 h1 {
     color: var(--hero-main-font-color);
+}
+
+header {
+    background-color: var(--dark-blue-color);
 }
